@@ -1,0 +1,9 @@
+.container {
+background-image: url("http://res.cloudinary.com/melluvia/image/upload/v1457443712/desktopmac_utulww.jpg");
+font-family: 'Raleway', Helvetica, Arial, sans-serif;
+background-size:cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+height:100%;
+}

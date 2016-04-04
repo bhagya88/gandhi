@@ -1,0 +1,389 @@
+#name {  
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 4em;
+  font-weight: 900;
+  letter-spacing: .04em;
+  line-height: 0em;
+  padding: 0em;
+  color: #000000;
+  margin: 1em 1em 4em 1em;
+  text-align: left;
+  z-index: 10;
+  position: relative;
+}
+
+.developer {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  letter-spacing: .12em;
+  line-height: 0px;
+  color: #000000;
+  position: absolute;
+  margin: -6em 1em 1em 2em;
+  text-align: left;
+}
+
+hr {
+    position: relative;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-bottom: 1px solid black;
+} 
+.visitor-greeting {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 10em;
+  position: fixed;
+  margin: 0em 0em 0em 5em;
+}
+.pitch {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 3em;
+  text-align: right;
+  line-height: 40px;
+  color: #000000;
+  margin: 10px 0px 300px 100px;
+  width: 100%;
+  position: absolute;
+  left: 300px;
+  top: 20px;
+  background-color: white;
+}
+
+/*Navigation Starts Here*/
+
+#primary_nav_wrap {
+  position: relative;
+  text-align: center;
+}
+
+#primary_nav_wrap ul li {
+  list-style:none;
+  position: relative;
+  padding: 1.85em 1.5em 1.6em 1.5em;
+  text-align: center;
+  display: inline;
+}
+
+#primary_nav_wrap ul a {
+  display: inline;
+  color: black;
+  text-decoration:none;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: .70em;
+  padding: 1em .9em .9em .9em;
+  position: relative;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+A:visited {
+  display: inline;
+  background: #ddd;
+  text-decoration:none;
+  font-weight:900;
+  font-size:2em;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+
+li:hover {
+  display: inline;
+  background-color: rgba(255,255,255,0.5);
+  padding: 12em 6em 3em 6em;
+  text-decoration: none;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+/*navigation ends here*/
+
+#description-wrap {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+   font-weight: 900;
+   font-size: 2em;
+   color: black;
+   display: inline;
+   width: 100%;
+   position: absolute;
+   padding-top: 1em;
+   padding-right: 3em;
+   padding-bottom: 1em;
+   padding-left: 3em;
+   margin: 2.5em 1em 1em 0em;
+   line-height: 1.5em;
+   background-color:rgba(255,255,255,0.5);
+}
+
+
+.img-bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -999999;
+  opacity: 0.5;
+}
+
+/*@media screen and (max-width: 1024px) { /* Specific to this particular image */
+
+/*font awesome css*/
+.sm-icons {
+  color: black;
+  margin: 0em 5em 0em 1em;
+}
+.space {
+  padding: .25em;
+}
+.fb-icon {
+  color: black;
+}
+.fb-icon:hover {
+  color: #00b3b3;
+}
+.tw-icon {
+  color: black;
+}
+.tw-icon:hover {
+  color: #00b3b3;
+}
+.cp-icon {
+  color: black;
+}
+.cp-icon:hover {
+  color: #00b3b3;
+}
+.gh-icon {
+  color: black;
+}
+.gh-icon:hover {
+  color: #00b3b3;
+}
+.li-icon {
+  color: black;
+}
+.li-icon:hover {
+  color: #00b3b3;
+}
+.wp-icon {
+  color: black;
+}
+.wp-icon:hover {
+  color: #00b3b3;
+}
+/*About*/
+
+.portrait {
+  width: auto;
+  height: auto;
+  padding: .25em;
+  margin: 10em 0em 8em 80em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  position: absolute;
+  z-index: 1;
+}
+#about-title {
+   font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  margin: 1.65em 1.5em 5em 16.5em;
+  letter-spacing: .04em;
+  font-weight: 900;
+  font-color: black;
+  position: absolute;
+  float: right;
+  text-align: right;
+  font-size: 4em;
+  z-index: 10;
+}
+#about-title a:link {
+ text-decoration: none;
+}
+#about-wrap {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+   font-weight: 900;
+   font-size: 2em;
+   text-align: right;
+   color: black;
+   display: inline;
+   width: 100%;
+   height: 8em;
+   position: relative;
+   float: right;
+   padding-top: 1em;
+   padding-right: 11em;
+   padding-bottom: 1em;
+   padding-left: 2em;
+   line-height: 1.5em;
+   margin: 5.5em 0em 5em 0em;
+   background-color:rgba(255,255,255,0.5);
+}
+
+/*Portfolio*/
+
+#portfolio-title {
+  font-family: 'Raleway', Helvetica, Arial,   sans-serif;
+  margin: -6.1em 5em 5em .5em;
+  letter-spacing: .04em;
+  font-weight: 900;
+  font-color: black;
+  position: absolute;
+  float: center;
+  text-align: center;
+  font-size: 4em;
+  z-index: 10;
+}
+
+/*Portfolio Buttons*/
+
+.btn-block {
+  margin: -20em 0em 0em 0em;
+  height: 20em;
+  width: 20em;
+  float: center;
+  background: rgba(255,255,255,0.5);
+  padding: 2px 0px;
+  border: 1px solid black;
+  border-radius: 0;
+  position: relative;
+  z-index: 1;
+}
+.btnblock2div {
+  z-index: 2;
+}
+.btn-block2 {
+  margin: 28em 0em 0em 0em;
+  height: 20em;
+  width: 22em;
+  float: center;
+  background: none;
+  padding: 1em 1em;
+  border: 1px solid black;
+  border-radius: 0;
+  position: relative;
+  z-index: 2;
+  display: none;
+}
+.hover:hover .rollover-text {
+    background: rgba(5,5,5,0.5);
+    height: 20em;
+    width: auto;
+    padding: 2em;
+    z-index: 2;
+    display: block;
+    text-align: center;
+}
+.hover2:hover .rollover-text2 {
+    background: rgba(5,5,5,0.5);
+    height: 20em;
+    width: 20em;
+    padding: 2em;
+    z-index: 2;
+    display: block;
+    text-align: center;
+}
+.hover3:hover .rollover-text3 {
+    background: rgba(5,5,5,0.5);
+    height: 20em;
+    width: 20em;
+    padding: 2em;
+    z-index: 2;
+    display: block;
+    text-align: center;
+}
+.hover4:hover .rollover-text4 {
+    background: rgba(5,5,5,0.5);
+    height: 20em;
+    width: 20em;
+    padding: 2em;
+    z-index: 2;
+    display: block;
+    text-align: center;
+}
+.portfolio-thumbnail-joshpage {
+  height: 19em;
+  width: 19em;
+  margin: .1em .1em .1em .4em;
+  alignment: center;
+  z-index: 2;
+  position: relative;
+}
+
+/*Start My Rollover CSS*/
+
+.rollover-text {
+  display: none;
+  color: white;
+  font-size: 1em;
+}
+.rollover-text2 {
+  display: none;
+  color: white;
+  font-size: 1em;
+}
+.rollover-text3 {
+  display: none;
+  color: white;
+  font-size: 1em;
+}
+.rollover-text4 {
+  display: none;
+  color: white;
+  font-size: 1em;
+}
+
+/*Contact Icons Bottom of Page*/
+
+#contact-title {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  margin: 7.8em 6em -3em .5em;
+  font-weight: 900;
+  font-color: #000000;
+  position: absolute;
+  float: center;
+  text-align: center;
+  font-size: 4em;
+  z-index: 10;
+}
+#contact-bottom-wrap {
+   font-family: 'Raleway', Helvetica, Arial,    sans-serif;
+   font-weight: 900;
+   font-size: 3em;
+   color: black;
+   display: inline;
+   width: 100%;
+   position: absolute;
+   text-align: center;
+   padding: .25em;
+   line-height: 0em;
+   background-color:rgba(255,255,255,0.5);
+   margin: 0em 0em 0em 0em;
+  
+}
+#bottom-line {
+  position: relative;
+  margin: 12em 0em 0em 0em;
+}
+.sm-icons2 {
+  float: center;
+  z-index: 25;
+  position: relative;
+  display: inline;
+}
+
+#no-hover a {
+  color: black;
+  text-decoration: none;
+}
+#no-hover a:hover {
+  background: transparent;
+  color: black;
+  text-decoration: none;
+}
